@@ -21,7 +21,7 @@
 
 	client.on('ready', () => {
 	  console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setGame(`!help`,"http://twitch.tv/S-F")
+	client.user.setGame(`Only BoNdOK. `,"http://twitch.tv/S-F")
 	  console.log('')
 	  console.log('')
 	  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -269,14 +269,14 @@
 	  const embed = new Discord.RichEmbed()
 		  .setColor("#000000")
 		  .setDescription(`
-	*play ⇏ لتشغيل أغنية برابط أو بأسم
-	*skip ⇏ لتجاوز الأغنية الحالية
-	*pause ⇏ ايقاف الأغنية مؤقتا
-	*resume ⇏ لمواصلة الإغنية بعد ايقافها مؤقتا
-	*vol ⇏ لتغيير درجة الصوت 100 - 0
-	*stop ⇏ لإخرآج البوت من الروم
-	*np ⇏ لمعرفة الأغنية المشغلة حاليا
-	*queue ⇏ لمعرفة قائمة التشغيل
+	/play ⇏ لتشغيل أغنية برابط أو بأسم
+	/skip ⇏ لتجاوز الأغنية الحالية
+	/pause ⇏ ايقاف الأغنية مؤقتا
+	/resume ⇏ لمواصلة الإغنية بعد ايقافها مؤقتا
+	/vol ⇏ لتغيير درجة الصوت 100 - 0
+	/stop ⇏ لإخرآج البوت من الروم
+	/np ⇏ لمعرفة الأغنية المشغلة حاليا
+	/queue ⇏ لمعرفة قائمة التشغيل
 	 `)
 	   message.channel.sendEmbed(embed)
 		
